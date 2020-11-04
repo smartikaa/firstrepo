@@ -1,0 +1,30 @@
+body{
+	background-color: #dbd8cf;
+}
+a{
+	text-align: center;
+	font-family: slab-serif;
+	color: #00796b;
+	text-decoration: none;
+	padding-left: 50px;
+    
+}
+nav{
+	background-color: #91ca83;
+    padding-top:50px; 
+    font-size: 18px;
+}
+header{
+	margin-top: 10px;
+	background-image: url("../images/header3.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 300px; 
+}
+h1{
+	font-family: broadway;
+	color: #f9fbe7de;
+	font-size: 45px;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 10px;
+}
