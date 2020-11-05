@@ -1,25 +1,104 @@
+
 body{
-	background-color: #dbd8cf;
+	background-color: #ffffff;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
 }
 a{
 	text-align: center;
-	font-family: slab-serif;
-	color: #00796b;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	text-decoration: none;
-	padding-left: 50px;
-    
+  color: #2A6049;
 }
+
+/*-------------------------------- Nav bar --------------------------------*/
 nav{
-	background-color: #91ca83;
-    padding-top:50px; 
-    font-size: 18px;
+    padding: 20px 320px;
 }
-header{
-	margin-top: 10px;
-	background-image: url("../images/header3.jpg");
-	background-repeat: no-repeat;
-	background-size: 1500px 300px; 
+.main-nav {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
 }
+.left {
+    margin-left: auto;
+}
+li {
+    padding: 20px;
+    font-size: 15px;
+
+}
+/*-------------------------------- cover page --------------------------------*/
+.cover {
+	height: 80vh;
+	text-align: center;
+	position: relative;
+}
+
+.cover-img{
+
+	height: 100%;
+
+}
+.cover-title{
+	font-size: 4em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	top: 20%;
+  left: 300px;
+  color: #2A6049;
+}
+.cover-des{
+	font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	position: absolute;
+	top: 25%;
+  left: 300px;
+  color: #2A6049;
+}
+
+.cover-btn{
+  background:transparent;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0px;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  outline:none;
+  position:relative;
+  top:0;
+}
+.green{
+    background:#00B067;
+    color:#fff;
+    border-radius:30px;
+    margin-top: 20px;    
+}
+.green:hover{
+    background:#13d7ae;
+}
+.green:active, .green:focus{
+    background:#0fae8d;
+}
+/*-------------------------------- main body --------------------------------*/
+
+
+
+.main-body{
+	margin: 30px 30px;
+}
+
 h1{
 	font-family: broadway;
 	color: #f9fbe7de;
@@ -28,3 +107,7 @@ h1{
 	padding-top: 50px;
 	padding-left: 10px;
 }
+
+
+
+
