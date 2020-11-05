@@ -86,10 +86,10 @@ li {
     margin-top: 20px;    
 }
 .green:hover{
-    background:#13d7ae;
+    background:#0BBF74;
 }
 .green:active, .green:focus{
-    background:#0fae8d;
+    background:#03A465;
 }
 /*-------------------------------- main body --------------------------------*/
 
