@@ -1,2 +1,2 @@
-# firstrepo
-check this out hihi
+# Farmace
+> <a href="https://smartikaa.github.io/firstrepo/" target="_blank">Live Website</a>
