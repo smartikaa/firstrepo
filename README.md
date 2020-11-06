@@ -1,2 +1,2 @@
-# firstrepo
-check this out hihi
+# Farmace
+> Live: [Website](https://smartikaa.github.io/firstrepo/)
