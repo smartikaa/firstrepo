@@ -220,21 +220,55 @@ li {
 .btn-addtocart:active, .btn-addtocart:focus{
     background:#03A465;
 }
-
-
-
-
-
-
-h1{
-	font-family: broadway;
-	color: #f9fbe7de;
-	font-size: 45px;
-	text-align: left;
-	padding-top: 50px;
-	padding-left: 10px;
+/*-------------------------------- about us --------------------------------*/
+#last{
+	background-color: #00b067eb;
+	padding-bottom: 100px;
 }
-
-
-
-
+#about_us{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	text-align: left;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-top: 10px;
+    width: 600px;
+    margin-left: 70px;
+    font-weight: 300;
+}
+#c_us
+{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+    color: #FFFFFF;
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 250px;
+    padding-top: 10px;
+    font-size:20px;
+    font-weight: 300;
+}
+#c_us a{
+	color: #FFFFFF;
+}
+#c_us a:hover{
+      background-color: #34ba82;
+      opacity: 0.8;
+      font-size: 120%;
+	}
+#last h3{
+    font-size:30px;
+}
+#font{
+	color: #FFFFFF;
+	padding-right:430px;
+	float:right;
+}
+#font1{
+	color: #FFFFFF;
+	padding-right:100px;
+	float:right;
+}
+i:hover{
+	opacity: 0.5;
+}
