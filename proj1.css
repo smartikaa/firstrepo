@@ -105,7 +105,7 @@ li {
     0 0,
     100% 0,
     100% 100%,
-    0 90%
+    0 100%
   );
 
 }
@@ -219,10 +219,16 @@ li {
     background:#03A465;
 }
 /*-------------------------------- about us --------------------------------*/
-#last{
+.last{
 	background: #2A6049;
-  margin-top: 200px;
-	padding: 70px 0px 300px 0px;
+  margin-top: 300px;
+	padding: 100px 0px 200px 0px;
+  clip-path: polygon(
+    0 0,
+    100% 5%,
+    100% 100%,
+    0 100%
+    );
 }
 #about_us{
 	font-family: 'Roboto', sans-serif;
