@@ -93,7 +93,7 @@ li {
 }
 /*-------------------------------- main body --------------------------------*/
 .main-body{
-  margin: 30px 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 .prdct-section{
@@ -132,13 +132,11 @@ li {
   padding: 0px;
   border-radius: 6px;
   position: relative;
+  transition: all 0.2s ease-out;
 }
   .card:hover {
-    transition: all 0.2s ease-out;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 0 4px 12px 0 rgba(0, 0, 0, 0.1);
     transform: translate(0, -2px);
-    
-    /*top: -3px;*/
   }
 .card-content{
   padding: 15px;
@@ -222,53 +220,56 @@ li {
 }
 /*-------------------------------- about us --------------------------------*/
 #last{
-	background-color: #00b067eb;
-	padding-bottom: 100px;
+	background: #2A6049;
+  margin-top: 200px;
+	padding: 70px 0px 300px 0px;
 }
 #about_us{
 	font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	text-align: left;
-    color: #FFFFFF;
-    display: inline-block;
-    padding-top: 10px;
-    width: 600px;
-    margin-left: 70px;
-    font-weight: 300;
+  color: #FFFFFF;
+  display: inline-block;
+  padding-top: 10px;
+  width: 600px;
+  margin-left: 70px;
+  font-weight: 300;
 }
 #c_us
 {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
-    color: #FFFFFF;
-    vertical-align: top;
-    display: inline-block;
-    padding-left: 250px;
-    padding-top: 10px;
-    font-size:20px;
-    font-weight: 300;
+  color: #FFFFFF;
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 250px;
+  padding-top: 10px;
+  font-size:20px;
+  font-weight: 300;
 }
 #c_us a{
 	color: #FFFFFF;
+  text-decoration: none;
 }
-#c_us a:hover{
-      background-color: #34ba82;
-      opacity: 0.8;
-      font-size: 120%;
-	}
 #last h3{
     font-size:30px;
 }
+.contact{
+  text-align: center;
+  float: left;
+}
 #font{
 	color: #FFFFFF;
-	padding-right:430px;
-	float:right;
+	padding: 10px 20px 10px 0px; 
 }
 #font1{
 	color: #FFFFFF;
-	padding-right:100px;
-	float:right;
+	padding: 10px 10px 10px 0px; 
+}
+i{
+  transition: all 0.2s ease-out;
 }
 i:hover{
-	opacity: 0.5;
+  transition: all 0.2s ease-out;
+	transform: translate(0, -2px);
 }
